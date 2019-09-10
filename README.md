@@ -5,10 +5,10 @@ My ~second~ third block breaker game. Unity Version: 2019.1.6f1
 
 In my third year of college I wrote another block breaker game called Breakout in Python. I had completely forgotten about this, but that repo is still up, if you really want to see it (dozercodes/Breakout).
 
-Now, in an effort to teach myself Unity, I will make another block breaker game. Wish me luck!
+Now, in an effort to teach myself Unity, I made another block breaker game. I hope you like it!
 
 
-TODO:
+Nice-to-haves:
 * Add multiple balls
 * Add different Game Over screen for if you beat all the levels
 * Call out score in Game Over screens
