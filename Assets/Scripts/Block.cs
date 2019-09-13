@@ -30,6 +30,7 @@ public class Block : MonoBehaviour {
 	}
 
 	private void OnCollisionEnter2D(Collision2D collision) {
+		AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
 		if (tag == "Breakable") {
 			ProcessCollision();
 		}
@@ -64,7 +65,6 @@ public class Block : MonoBehaviour {
 	}
 
 	private void PlayBlockDestroyFX() {
-		AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
 		TriggerSparklesVFX();
 	}
 
